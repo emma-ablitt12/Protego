@@ -1,0 +1,35 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '12.0'
+target 'Protego' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  target 'ProtegoTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  
+end
+
+target 'Protego-tvOS' do
+  # Pods for Protego-tvOS
+
+  target 'Protego-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+
+# add the Firebase pod for Google Analytics
+pod 'FirebaseAnalytics'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Messaging'
+pod 'Firebase/CoreOnly'
+pod 'Firebase/Firestore'
+# add pods for any other desired Firebase products
+# https://firebase.google.com/docs/ios/setup#available-pods
