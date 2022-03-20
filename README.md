@@ -1,0 +1,1 @@
+Protego - A Personal Safety Application developed for Android and iOS using React Native.

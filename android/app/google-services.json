@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "772912958995",
+    "firebase_url": "https://protego-ad4da-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "protego-ad4da",
+    "storage_bucket": "protego-ad4da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772912958995:android:d1c4ce10fd726f635c79e6",
+        "android_client_info": {
+          "package_name": "com.protego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772912958995-s437s5armjnnqvgl6pf7oia845g2pdvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.protego",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "772912958995-aplpvudh754d46jooqu24fqgh2rbuaas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFnaCFub4UFktpZBEomdh13GaQBvT_YKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772912958995-aplpvudh754d46jooqu24fqgh2rbuaas.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "772912958995-ch2vhs4juj383l04vhjecitferj88uin.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.protego"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
